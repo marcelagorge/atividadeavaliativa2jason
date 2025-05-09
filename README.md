@@ -1,37 +1,49 @@
-# Atividade Avaliativa 2 - Ranking Interativo em PHP
+# Atividade Avaliativa 2 - Sistema de Ranking em PHP (com MySQLi Procedural)
 
-Este repositório contém uma aplicação simples em PHP e MySQL que permite inserir itens com notas e organizá-los em um ranking top 10. Os itens podem ser classificados por categorias como filmes, músicas, livros ou jogos. A aplicação faz parte da segunda atividade avaliativa da disciplina de programação web.
+Este repositório contém uma aplicação simples desenvolvida em **PHP com MySQLi procedural**, que permite cadastrar itens com nota e exibi-los em formato de **ranking Top 10**. Os itens são classificados por categorias como **Filmes, Músicas, Livros ou Jogos**.
 
-## Funcionalidades
+A aplicação segue os requisitos da segunda atividade avaliativa da disciplina de **Programação Web**.
 
-* Inserção de itens com:
-    * Nome
-    * Nota (de 0 a 10)
-    * Tipo (Filmes, Músicas, Livros, Jogos)
-* Exibição dos 10 itens com maior nota
-* Exclusão de itens do ranking
-* Evita inserções duplicadas ao recarregar a página com F5
+## ✅ Funcionalidades
 
-## Banco de Dados
+- Cadastro de itens com:
+  - Nome
+  - Nota (de 0 a 10)
+  - Tipo (Filmes, Músicas, Livros, Jogos)
+- Exibição dos 10 itens com maior nota (ranking)
+- Validação de campos obrigatórios
+- Estrutura dividida em arquivos separados, conforme solicitado:
+  - `index.php`: formulário de cadastro
+  - `salvar.php`: gravação no banco de dados
+  - `listar.php`: exibição do ranking
+  - `conexao.php`: conexão com MySQL
+- Banco de dados em arquivo `.txt` exportado via phpMyAdmin
 
-Use o conteúdo do arquivo `sql.txt` para criar a tabela no phpmyadmin:
+## 🛠 Banco de Dados
 
-## Como Executar
+Use o conteúdo do arquivo `sql.txt` para criar a estrutura no **phpMyAdmin**:
 
-1.  Clone ou baixe este repositório.
-2.  Coloque os arquivos em um servidor local (como o XAMPP ou WampServer).
-3.  No phpMyAdmin:
-    * Crie um banco de dados chamado `ranking`
-    * Execute o conteúdo de `sql.txt` para criar a tabela `entradas`
-4.  Abra o navegador e acesse: `http://localhost/atividadeavaliativa2jason/index.php`
+- Crie um banco de dados chamado `ranking`
+- Execute o conteúdo de `sql.txt` para criar a tabela `entradas`
 
-## Tecnologias Utilizadas
+## ▶️ Como Executar
 
-* PHP
-* MySQL
-* HTML
+1. Clone ou baixe este repositório.
+2. Coloque os arquivos em um servidor local como **XAMPP** ou **WampServer**.
+3. No **phpMyAdmin**:
+   - Crie o banco `ranking`
+   - Importe o arquivo `sql.txt`
+4. Acesse no navegador:
+/localhost/ranking/index.php
+
+
+## 🧪 Tecnologias Utilizadas
+
+- PHP (MySQLi Procedural)
+- MySQL
+- HTML
 
 ---
 
-**Marcela dos Santos Gorge**
+Marcela dos Santos Gorge  
 **RGM:** 34408088
