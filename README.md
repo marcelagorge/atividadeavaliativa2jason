@@ -17,7 +17,7 @@ A aplicação segue os requisitos da segunda atividade avaliativa da disciplina 
   - `salvar.php`: gravação no banco de dados
   - `listar.php`: exibição do ranking
   - `conexao.php`: conexão com MySQL
-- Banco de dados em arquivo `.txt` exportado via phpMyAdmin
+- Banco de dados em arquivo `entradas.sql` exportado via phpMyAdmin
 
 ## 🛠 Banco de Dados
 
